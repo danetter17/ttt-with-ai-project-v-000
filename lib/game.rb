@@ -76,7 +76,6 @@ class Game
     computer_1 = Players::Computer.new("X")
     computer_2 = Players::Computer.new("O")
     Game.new(computer_1, computer_2).play
-# <<<<<<< HEAD
     puts "Would you like to play again? (Y/N)"
     input2 = gets.strip
     if input2 == "Y"
